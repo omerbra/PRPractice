@@ -1,0 +1,159 @@
+header{
+      margin-left: 35%;
+      display: flex;
+      align-content: center;
+}
+
+nav{
+      margin-top: 10%;
+      margin-left: 28%;
+      margin-bottom: 10%;
+}
+.amount{
+      font-size: 30px;
+}
+
+.subtitle{
+      margin-left: 11%;
+}
+
+.discount{
+      height: 30px;
+      width: 100%;
+      border-radius: 3px;
+      display: flex;
+      background-color: rgb(228, 110, 0);
+      color: white;
+      margin: 3px;
+      box-shadow: 0 0px 0px 0px #e1e5e8;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: -4%;
+      left: -1%;
+}
+.plan{
+      height: 100%;
+      width: 15%;
+      border-radius: 3px;
+      box-shadow: 0 0px 6px 1px #e1e5e8;
+      display: flex;
+      border: 1px solid #fff;
+      margin: 3px;
+      align-content: center;
+      justify-content: center;
+      position: relative;
+      padding-top: 50px;
+      top:0px;
+}
+
+.plan:hover{
+      box-shadow: 1px 0px 50px 1px #e1e5e8;
+      transition: top ease 300ms;
+      top:-5px;
+}
+
+.left_plan{
+      padding-bottom: 3.3%;
+}
+
+.highlighted_plan{
+      box-shadow: 1px 0px 50px 1px #e1e5e8;
+      padding-bottom: 6.666%;
+}
+
+.right_plan{
+      padding-bottom: 10%;
+}
+
+input{
+      -webkit-appearance: none;
+}
+
+.plans_container {
+      height: 80%;
+      display: flex;
+      width: 100%;
+      align-content: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      font-family: HelveticaNeueW01-55Roma,HelveticaNeueW02-55Roma,HelveticaNeueW10-55Roma,"Helvetica Neue",Helvetica,Arial,"\30E1\30A4\30EA\30AA",meiryo,"\30D2\30E9\30AE\30CE\89D2\30B4 pro w3","hiragino kaku gothic pro",sans-serif;
+
+}
+.plan_title{
+      text-align: center;
+}
+.plan_description{
+      text-align: left;
+      line-height: 2em;
+      margin-left: -30px;
+}
+
+.select_button{
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+      text-align: center;
+      border: 1px solid rgb(228, 110, 0);
+      font-size: 16px;
+      height: 36px;
+      border-radius: 18px;
+      padding: 0 23px;
+      background-color: rgb(255, 255, 255);
+      color: rgb(228, 110, 0);
+      position:relative;
+      margin-bottom: 20px;
+      margin-top: 10px;
+}
+
+.select_button:hover {
+      background-color: rgb(228, 110, 0);
+      color: white;
+}
+
+.radio{
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+      text-align: center;
+      border-radius: 5px;
+      font-size: 16px;
+      height: 36px;
+      padding: 10px 23px;
+      margin: 3px;
+      background-color: rgb(255, 255, 255);
+      border: 2px solid rgb(170, 170, 170);
+      position:relative;
+      width: 36%;
+}
+
+.radio_wrapper1{
+      position:absolute;
+      left:48.5%;
+      top: 16.5%;
+}
+
+.radio_wrapper1:hover{
+      color: rgb(228, 110, 0);
+}
+
+.radio_wrapper2{
+      position: absolute;
+      left:55.4%;
+      top: 16.5%;
+}
+
+.radio_wrapper2:hover{
+      color: rgb(228, 110, 0);
+}
+
+.radio:checked{
+      color:black;
+      border-color: rgb(228, 110, 0);
+}
+
+footer{
+      width: 60%;
+      margin-left: 22%;
+}
